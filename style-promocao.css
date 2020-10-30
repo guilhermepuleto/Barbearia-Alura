@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: deeppink;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+h2 {
+	text-align: center;
+	padding: 30px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: deeppink;
+
+}
+
+.rosa p {
+
+	display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+strong {
+	color: deeppink;
+	font-weight: bold;
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.4%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	color: deeppink;
+}
+
+.produtos li:hover {
+	border-color: red;
+}
+
+.produtos li:active {
+	border-color: deeppink;
+}
+
+.produtos li:hover h3 {
+	font-size: 27px;
+}
+
+.produtos h3{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.produto-descricao{
+	font-size: 17px;
+}
+
+.produto-preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .rosa {
+        width: auto;
+}
+h1 {
+    text-align: center;
+
+}
+nav {
+    position: static;
+
+}
+
+nav a {
+	font-size: 14px;
+}
+
+.rosa p {
+	display: block;;
+	width: 90%;
+	margin: 0 20px;
+}
+
+.imagemrosa {
+	margin: 0 50px;
+}
+
+.produtos {
+		width: 100%;
+		display: block;
+		padding: 10px 0;
+}
+
+.produtos li {
+		display: block;
+		width: 90%;
+		margin: 15px 20px;
+}
+
+
+
+}
